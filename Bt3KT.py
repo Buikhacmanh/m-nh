@@ -10,4 +10,3 @@ giaiThua = 1
 for i in range(1, a+1):
     giaiThua = giaiThua * i;
 print(a, "! =", giaiThua)
-© 2021 GitHub, Inc.

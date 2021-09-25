@@ -1,10 +1,13 @@
-n = int(input("Nhập số cần tính giai thừa: "))
-
-
-def giaiThua(n):
-    if n == 0:
-        return 1
-    return n * giaiThua(n - 1)
-
-
-print(giaiThua(n))
+print("Moi ban nhap vao 1 so nguyen duong: ")
+while True:
+    a = int(input())
+    if a<0:
+        print("Nhap sai, moi ban nhap lai:")
+    else:
+        break
+        
+giaiThua = 1
+for i in range(1, a+1):
+    giaiThua = giaiThua * i;
+print(a, "! =", giaiThua)
+© 2021 GitHub, Inc.
